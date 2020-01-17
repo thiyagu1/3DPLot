@@ -33,9 +33,9 @@ def fitPlaneLTSQ(XYZ):
 
     return (c, normal)
 
-
+Filename = "xxx"
 #Import Data from CSV
-result = pandas.read_csv("C:/Users/varjo/source/repos/Varjo_Foundation/Varjo_Foundation/Logs/points_L.csv", header=None) # , names=['X', 'Y','Z']
+result = pandas.read_csv(Filename, header=None) # , names=['X', 'Y','Z']
 #result =result.head(5)
 print(result)
 
