@@ -1,2 +1,2 @@
-# 3DPLot
+# PLANE FITTING
 3DVisualization 
